@@ -1,0 +1,52 @@
+body{background:#e0d3b0;font-size:16px;text-align:left;min-width:320px}
+article,figure{display:inline-block;vertical-align:top}
+a{text-decoration:none;margin:0}
+h1,h2,h3,figure{padding:0;margin:0}
+header{background:#a8974b;border-bottom:3px solid #333;padding:.2em;text-align:center;margin-bottom:3em;width:100%}
+nav{text-align:center;width:100%;}
+nav figure{float:left;margin-left:5em}
+nav img{width:60px}
+nav ul{text-align:center;margin:1.3em 0;padding:0;width:80%}
+nav li{margin:0 .75em;vertical-align:middle;}
+nav li a{color:#feffff;font-size:1.3em}
+nav li a:hover{font-weight:bold;color:#fff}
+h2,h3,figure,p,h1{display:inline-block;vertical-align:bottom}
+h3,h2{color:#feffff}
+#header_logo,ul,li{display:inline-block;vertical-align:middle}
+.green_banner{background:#57a945;margin:0;padding:2.5em 1em}
+#welcome_banner h1{font-size:1.375em;color:#fbb64a;margin:0 .5em}
+#listen_banner h2{color:#feffff;text-align:center;vertical-align:middle;margin:0 .5em}
+#listen_banner figure{height:5.2em;margin-left:1em;vertical-align:middle}
+#listen_banner:hover{border:solid .2em #333}
+#radio1_banner{background:#f59158;margin:0;padding:1em;}
+#radio1_banner h3{font-weight:normal;text-align:center;width:70%;vertical-align:top;margin-top:2em;margin-left:1em;}
+#radio1_banner h3 span{color:#c42c00;font-weight:bold}
+#radio1_banner img{border:solid .2em #333}
+.social_banner{background:#5f5f5f;padding:.5em;margin:.3em 0;text-align:center;}
+.social_banner h3{font-weight:normal;vertical-align:middle;}
+.social_banner h3 span{font-size:.9em;font-weight:normal;margin-left:10em}
+.social_banner figure{vertical-align:middle;float:right;margin-right:5em}
+.social_banner:hover{border:solid .2em #333}
+#radio2_banner{background:#5f5f5f;padding:1em;}
+#radio2_banner span{color:#57a945}
+#radio2_banner img{border:solid .2em #333}
+#radio2_banner h3{font-weight:normal;text-align:center;width:70%;vertical-align:top;margin-top:1em}
+#welcome_banner,#listen_banner{margin-bottom:1em}
+#radio3_banner{background:#5f5f5f;padding:2em;margin-top:.25em;}
+#radio3_banner span{color:#57a945}
+#radio3_banner h3{font-weight:normal;text-align:center;width:70%;vertical-align:top;margin-top:1em}
+#radio3_banner img{width:130px}
+#radio3_banner figure{float:right}
+#radio3_banner:hover{border:solid .2em #333}
+footer{margin-top:1.2em}
+#radio_title{font-size:1.375em;color:#fbb64a;padding:.3em;text-align:center}
+#player_container{text-align:center;}
+#player_container h3{color:#333}
+#player_container span{color:#0081a0}
+#chat_container{text-align:center;margin-top:.5em;}
+#chat_container iframe{border:solid .2em #0081a0}
+#tweet_display{text-align:center;margin-top:.5em;}
+#tweet_display h3{color:#333}
+#tweet_display a{color:#0081a0}
+#tweet_container{background:#0081a0;}
+#tweet_container h3,#tweet_container p,#tweet_container a{display:inline-block;vertical-align:top}

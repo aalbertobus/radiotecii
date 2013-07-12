@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>RadioTec - La Radio Cultural del Instituto Tecnológico de Chihuahua II</title>
+        <meta name="description" content="RadioTec es la radio cultural del Instituto Tecnológico de Chihuahua II">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img src="img/radiotec_logo.png" id="header_logo" alt="radiotec_logo">
+                </a>
+                <h1 id="radio_title">La Radio cultural<br> del Instituto Tecnológico de ChihuahuaII</h1>
+            </nav>
+        </header>
+
+        <div id="player_container">
+            <h3><a href="http://www.macromedia.com/go/getflashplayer"><span>Baja e Instala flash Player</span></a> si no ves aquí el reproductor de audio.</h3>
+
+            <div id="player">
+                <embed type="application/x-shockwave-flash" src="http://www.itchihuahuaii.edu.mx/RadioTec/player.swf" width="394" height="20" style="undefined" id="ply" name="ply" bgcolor="#FFFFFF" quality="high" allowfullscreen="true" allowscriptaccess="always" flashvars="file=http://184.107.183.35:9992/;stream.nsv&amp;type=mp3&amp;volume=50&amp;autostart=true">
+
+            </div>
+        </div>
+
+        <div id="chat_container">
+            <iframe src="http://chat.mejorando.la" height="500px" width="90%"></iframe>
+        </div>
+
+        <div id="tweet_display">
+            <h3>
+                Agrega 
+                <a href="http://twitter.com/RadioTecITCHII">
+                     @RadioTecITCHII
+                </a> al final de tu tweet para aparecer aca.
+            </h3>
+            <div id="tweet_container">
+                <a href="#">
+                    <img src="img/tweet_img.jpg">
+                </a>
+                <h3>Me encanta el programa de oswaldo, me cai del susto cuando lo escuche por primera vez #HistoriasdelSotano @RadioTecITCHII </h3>
+                <p>Hace 5 minutos</p> 
+            </div>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
