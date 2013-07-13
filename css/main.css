@@ -111,6 +111,7 @@ footer #radio3_banner img{margin-top:1em;width:100px}
 #programs_section .program_item h2{font-size:1.3em}
 #programs_section .program_item h3{font-size:1.1em}
 #programs_section .program_item img{margin-top:1em;width:80px}
+#acerca_section img{width:400px}
 }@media (max-width: 480px){nav img{width:45px}
 nav ul{padding:0;width:100%}
 nav li{margin:0 .4em;}
@@ -129,4 +130,5 @@ footer{margin:.1em 0;}
 footer #radio2_banner{display:none}
 footer #radio3_banner{width:100%;padding:.5em;margin:0;border:solid .2em #333;}
 footer #radio3_banner img{margin-top:1em;width:100px}
+#acerca_section img{width:300px}
 }
