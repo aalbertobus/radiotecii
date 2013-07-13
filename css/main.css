@@ -58,13 +58,13 @@ footer{margin-top:1.2em}
 .page_hone h2{font-weight:normal;color:#333}
 .page_hone a{color:blue_}
 .page_hone a:hover{font-weight:bold}
-#programs_section,.program_item,.program_title,.program_img{margin:0;padding:0;display:inline-block;vertical-align:top}
+#programs_section,.program_item,.program_title,.program_img{margin:0;padding:.3em 0;display:inline-block;vertical-align:top}
 #programs_section{margin:0 5%;margin-top:2em;text-align:center;width:90%;}
 #programs_section .program_item{background:#57a945;border:solid .15em #5f5f5f;margin:.5em;width:45%}
 #programs_section .program_figure{float:right;margin:.3em;}
 #programs_section .program_figure img{border:solid .2em #5f5f5f}
 #programs_section .program_title{color:#333;font-weight:bold;margin:1em}
-#programs_section .program_desc{margin:.2em;text-align:left;width:70%;font-weight:normal}
+#programs_section .program_desc{margin-top:-1em;padding:.2em 0;text-align:left;width:70%;font-weight:normal}
 #acerca_section{margin:0 1em;background:#e0d3bf;border-radius:.6em;border:solid .15em #5f5f5f;padding:1em;margin:2em 1em;}
 #acerca_section h2{color:#333;text-align:left}
 #acerca_section h3{color:#333;font-weight:normal;text-align:left}
@@ -80,6 +80,14 @@ body .social_banner img,#first_section .social_banner img{width:40px}
 footer #radio2_banner,footer #radio3_banner{margin:.6em .1em;padding:1em;width:49%;}
 footer #radio2_banner img,footer #radio3_banner img{width:80px}
 footer #radio3_banner img{margin-top:1em}
+.page_hone{margin:0 .5em;padding:.8em;}
+.page_hone h1{font-size:1.3em}
+.page_hone h2{font-size:1.1em;width:80%}
+#programs_section{margin:.5em 5%;width:90%;}
+#programs_section .program_item{margin:.1em 0;padding:.5em;width:100%;}
+#programs_section .program_item h2{font-size:1.3em}
+#programs_section .program_item h3{font-size:1.1em}
+#programs_section .program_item img{margin-top:1em;width:80px}
 }@media (max-width: 767px){nav ul{padding:0;width:100%}
 nav li{margin:0 .4em}
 #first_section{margin-top:-3.1em;}
@@ -95,6 +103,14 @@ footer{margin:.1em 0;}
 footer #radio2_banner{display:none}
 footer #radio3_banner{width:100%;padding:.5em;margin:0;border:solid .2em #333;}
 footer #radio3_banner img{margin-top:1em;width:100px}
+.page_hone{margin:0 .5em;padding:.8em;}
+.page_hone h1{font-size:1.3em}
+.page_hone h2{font-size:1.1em;width:80%}
+#programs_section{margin:.5em 5%;width:90%;}
+#programs_section .program_item{margin:.1em 0;padding:.5em;width:100%;}
+#programs_section .program_item h2{font-size:1.3em}
+#programs_section .program_item h3{font-size:1.1em}
+#programs_section .program_item img{margin-top:1em;width:80px}
 }@media (max-width: 480px){nav img{width:45px}
 nav ul{padding:0;width:100%}
 nav li{margin:0 .4em;}
