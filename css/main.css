@@ -39,6 +39,8 @@ h3,h2{color:#feffff}
 #radio3_banner img{width:130px}
 #radio3_banner figure{float:right}
 #radio3_banner:hover{border:solid .2em #333}
+.social_banner,#green_banner,.radio_banner,#listen_banner{border-radius:.5em}
+#radio2_banner,#radio1_banner{border-radius:0}
 footer{margin-top:1.2em}
 #radio_title{font-size:1.375em;color:#fbb64a;padding:.3em;text-align:center}
 #player_container{text-align:center;}
@@ -68,11 +70,11 @@ footer{margin-top:1.2em}
 #acerca_section h3{color:#333;font-weight:normal;text-align:left}
 #acerca_img{text-align:center;margin:1em;width:100%}
 @media (min-width: 768px) and (max-width: 1250px){body,#first_section{margin:0;padding:0;width:100%;}
-body .green_banner,#first_section .green_banner,body .radio_banner,#first_section .radio_banner,body .social_banner,#first_section .social_banner{width:49%;margin:.8em .1em;padding:.5em}
+body .green_banner,#first_section .green_banner,body .radio_banner,#first_section .radio_banner,body .social_banner,#first_section .social_banner{width:49%;margin:.8em .1em;padding:1.5em;border-radius:.3em}
 body #welcome_banner h1,#first_section #welcome_banner h1,body #listen_banner h1,#first_section #listen_banner h1,body #radio1_banner h1,#first_section #radio1_banner h1,body #welcome_banner h2,#first_section #welcome_banner h2,body #listen_banner h2,#first_section #listen_banner h2,body #radio1_banner h2,#first_section #radio1_banner h2{font-size:1.2em;width:65%}
 body #welcome_banner img,#first_section #welcome_banner img,body #listen_banner img,#first_section #listen_banner img,body #radio1_banner img,#first_section #radio1_banner img{width:80px}
 body #radio1_banner h3,#first_section #radio1_banner h3{font-size:1.1em;margin:0 .3em;width:60%}
-body .social_banner,#first_section .social_banner{padding:.1em;margin:.6em .1em;}
+body .social_banner,#first_section .social_banner{padding:.6em;margin:.6em .1em;}
 body .social_banner h3,#first_section .social_banner h3,body .social_banner span,#first_section .social_banner span{margin:0;padding:0;text-align:left}
 body .social_banner img,#first_section .social_banner img{width:40px}
 footer #radio2_banner,footer #radio3_banner{margin:.6em .1em;padding:1em;width:49%;}
