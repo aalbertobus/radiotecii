@@ -13,6 +13,7 @@ nav li a:hover{font-weight:bold;color:#fff}
 h2,h3,figure,p,h1{display:inline-block;vertical-align:bottom}
 h3,h2{color:#feffff}
 #header_logo,ul,li{display:inline-block;vertical-align:middle}
+#header_logo:hover{border-radius:2em;border:solid .2em #57a945}
 .green_banner{background:#57a945;margin:0;padding:2.5em 1em}
 #welcome_banner h1{font-size:1.375em;color:#fbb64a;margin:0 .5em}
 #listen_banner h2{color:#feffff;text-align:center;vertical-align:middle;margin:0 .5em}
@@ -50,3 +51,19 @@ footer{margin-top:1.2em}
 #tweet_display a{color:#0081a0}
 #tweet_container{background:#0081a0;}
 #tweet_container h3,#tweet_container p,#tweet_container a{display:inline-block;vertical-align:top}
+.page_hone{text-align:center;}
+.page_hone h1{color:#333}
+.page_hone h2{font-weight:normal;color:#333}
+.page_hone a{color:blue_}
+.page_hone a:hover{font-weight:bold}
+#programs_section,.program_item,.program_title,.program_img{margin:0;padding:0;display:inline-block;vertical-align:top}
+#programs_section{margin:0 5%;margin-top:2em;text-align:center;width:90%;}
+#programs_section .program_item{background:#57a945;border:solid .15em #333;margin:.5em;width:45%}
+#programs_section .program_figure{float:right;margin:.3em;}
+#programs_section .program_figure img{border:solid .2em #5f5f5f}
+#programs_section .program_title{font-weight:bold;margin:1em}
+#programs_section .program_desc{margin:.2em;text-align:left;width:70%;font-weight:normal}
+#acerca_section{margin:0 1em;}
+#acerca_section h2{color:#333;text-align:left}
+#acerca_section h3{color:#333;font-weight:normal;text-align:left}
+#acerca_img{text-align:center;margin:1em;width:100%}
