@@ -1,0 +1,150 @@
+
+// Portrait tablet to landscape and desktop 
+@media (min-width: 768px) and (max-width: 1250px)
+	body
+	#first_section
+		margin 0 
+		padding 0 
+		width 100%
+		.green_banner,.radio_banner,.social_banner
+			width 49%
+			margin 0.8em 0.1em
+			padding 0.5em 
+		#welcome_banner,#listen_banner,#radio1_banner
+			h1,h2
+				font-size 1.2em
+				width 65%
+			img
+				width 80px
+		#radio1_banner
+			h3
+				font-size 1.1em
+				margin 0 0.3em
+				width 60%
+		.social_banner
+			padding 0.1em
+			margin 0.6em 0.1em
+			h3,span
+				margin 0 
+				padding 0 
+				text-align left
+			img
+				width 40px
+	footer
+		#radio2_banner,#radio3_banner
+			margin 0.6em 0.1em
+			padding 1em 
+			width 49%
+			img
+				width 80px
+		#radio3_banner
+			img
+				margin-top 1em
+
+// Landscape phone to portrait tablet 
+@media (max-width: 767px) 
+	body
+	//header 	
+	nav
+		ul
+			padding 0 
+			width 100%
+		li
+			margin 0 0.4em
+
+	#first_section
+		margin-top -3.1em
+		.social_banner
+			margin 0.1em 0
+			padding 0.5em
+			width 100%
+			text-align left
+			border solid 0.2em black_
+
+		.green_banner, .radio_banner
+			padding 0.5em
+			margin 0.1em 0  
+			width 100%
+			h1,h2,h3
+				font-size 1.2em
+		#welcome_banner
+			h1
+				vertical-align top
+				margin 0.5em 0
+				text-align center
+				width 60%
+			img
+				margin 0 0.5em
+		#listen_banner
+			border solid 0.2em black_
+			img
+				width 80px		
+		#radio1_banner
+			display none
+	footer
+		margin 0.1em 0
+		#radio2_banner
+			display none
+		#radio3_banner
+			width 100%
+			padding 0.5em 
+			margin 0
+			border solid 0.2em black_
+			img
+				margin-top 1em
+				width 100px
+
+// Landscape phones and down 
+@media (max-width: 480px) 
+	body
+	//header 	
+	nav
+		img
+			width 45px
+		ul
+			padding 0 
+			width 100%
+		li
+			margin 0 0.4em
+			a
+				font-size 1em
+	#first_section
+		margin-top -3.1em
+		.social_banner
+			margin 0.1em 0
+			padding 0.5em
+			width 100%
+			text-align left
+			border solid 0.2em black_
+			h3
+				margin-left 0.5em
+			span
+				margin-left 2em
+			img
+				width 40px
+		.green_banner, .radio_banner
+			padding 0.5em
+			margin 0.1em 0  
+			width 100%
+			h1,h2,h3
+				font-size 1.2em
+		#welcome_banner
+			h1
+				text-align right
+				width 60%		
+		#listen_banner
+			border solid 0.2em black_		
+		#radio1_banner
+			display none
+	footer
+		margin 0.1em 0
+		#radio2_banner
+			display none
+		#radio3_banner
+			width 100%
+			padding 0.5em 
+			margin 0
+			border solid 0.2em black_
+			img
+				margin-top 1em
+				width 100px
