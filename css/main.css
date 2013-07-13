@@ -57,13 +57,13 @@ footer{margin-top:1.2em}
 .page_hone a{color:blue_}
 .page_hone a:hover{font-weight:bold}
 #programs_section,.program_item,.program_title,.program_img{margin:0;padding:0;display:inline-block;vertical-align:top}
-#programs_section{margin:0 5%;margin-top:2em;text-align:center;width:90%;}
-#programs_section .program_item{background:#57a945;border:solid .15em #333;margin:.5em;width:45%}
+#programs_section{margin:0 5%;margin-top:2em;text-align:center;width:90%;background:#a8974b;}
+#programs_section .program_item{background:#57a945;border:solid .15em #5f5f5f;margin:.5em;width:45%}
 #programs_section .program_figure{float:right;margin:.3em;}
 #programs_section .program_figure img{border:solid .2em #5f5f5f}
-#programs_section .program_title{font-weight:bold;margin:1em}
+#programs_section .program_title{color:#333;font-weight:bold;margin:1em}
 #programs_section .program_desc{margin:.2em;text-align:left;width:70%;font-weight:normal}
-#acerca_section{margin:0 1em;}
+#acerca_section{margin:0 1em;background:#e0d3bf;border-radius:.6em;border:solid .15em #5f5f5f;padding:1em;margin:2em 1em;}
 #acerca_section h2{color:#333;text-align:left}
 #acerca_section h3{color:#333;font-weight:normal;text-align:left}
 #acerca_img{text-align:center;margin:1em;width:100%}
