@@ -69,6 +69,10 @@ footer{margin-top:1.2em}
 #acerca_section h2{color:#333;text-align:left}
 #acerca_section h3{color:#333;font-weight:normal;text-align:left}
 #acerca_img{text-align:center;margin:1em;width:100%}
+body table{margin:.5em}
+body table,body td,body tr{background:rgba(4,169,87,0.1);border:solid .1em #333;padding:.5em}
+body th{background:#57a945;border:solid .15em #000;padding:.3em;}
+body th span{color:#333}
 @media (min-width: 768px) and (max-width: 1250px){body,#first_section{margin:0;padding:0;width:100%;}
 body .green_banner,#first_section .green_banner,body .radio_banner,#first_section .radio_banner,body .social_banner,#first_section .social_banner{width:49%;margin:.8em .1em;padding:1.5em;border-radius:.3em}
 body #welcome_banner h1,#first_section #welcome_banner h1,body #listen_banner h1,#first_section #listen_banner h1,body #radio1_banner h1,#first_section #radio1_banner h1,body #welcome_banner h2,#first_section #welcome_banner h2,body #listen_banner h2,#first_section #listen_banner h2,body #radio1_banner h2,#first_section #radio1_banner h2{font-size:1.2em;width:65%}
